@@ -14,7 +14,7 @@ const FEATURES = [
   { icon: Shield,     title: 'Secure by design',     desc: 'JWT auth, bcrypt passwords, rate limiting, and security headers.' },
   { icon: Clock,      title: 'Link expiration',      desc: 'Set an expiry date on any link. Expired links return 410 Gone.' },
   { icon: Globe,      title: 'Custom aliases',       desc: 'Use /my-brand instead of a random code. Your choice.' },
-  { icon: Link2,      title: 'Always available',     desc: 'Built on Spring Boot + PostgreSQL, deployed on your own VPS.' },
+  { icon: Link2,      title: 'Always available',     desc: 'Built on Spring Boot + PostgreSQL, deployed in a Virtual Private Server.' },
 ]
 
 export function LandingPage() {
@@ -105,7 +105,7 @@ export function LandingPage() {
         <Link to="/register">
           <Button
             size="lg"
-            className="bg-white text-brand-600 hover:bg-brand-50 focus:ring-white rounded-xl"
+            className="bg-gray text-brand-600 hover:bg-brand-50 focus:ring-white rounded-xl"
           >
             Create free account
             <ArrowRight size={16} />
