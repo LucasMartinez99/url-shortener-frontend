@@ -20,4 +20,4 @@ jobs:
             cd /home/lucas/apps/url-shortener/frontend
             git pull origin main
             cd /home/lucas/apps/url-shortener
-            docker-compose up -d --build nginx
+            docker compose up -d --build nginx
